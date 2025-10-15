@@ -14,6 +14,9 @@ or NavController dependency. The host app controls navigation using selectedId a
 ### Quick start
 
 1. Add module dependency to your Gradle settings or include via Maven/JitPack as described below.
+    dependencies {
+        implementation ("com.github.GrandSoleil2611:bottomnav-compose:v1.0.0")
+    }
 2. Use the API:
 
 <pre>var selectedId by remember { mutableStateOf("home") }
