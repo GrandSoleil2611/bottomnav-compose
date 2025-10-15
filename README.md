@@ -16,7 +16,7 @@ or NavController dependency. The host app controls navigation using selectedId a
 1. Add module dependency to your Gradle settings or include via Maven/JitPack as described below.
 2. Use the API:
 
-<pre>```kotlinvar selectedId by remember { mutableStateOf("home") }
+<pre>var selectedId by remember { mutableStateOf("home") }
 
 val items = listOf(
   NavItem("home","Home", Icons.Default.Home),
@@ -35,7 +35,7 @@ ComposableBottomNav(
       "search" -> openSearch()
     }
   }
-)```</pre>
+)</pre>
 
 ### Accessibility
 
